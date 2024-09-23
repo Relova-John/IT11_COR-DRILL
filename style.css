@@ -1,0 +1,30 @@
+body {
+    margin: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 1000px;
+    height: 1200px;
+    background-color: black;
+}
+.page {
+    background-color: white;
+    justify-content: center;
+    width: 800px;
+    height: 1000px;
+    padding: 20px
+}
+.pheader {
+    text-align: center;
+}
+.hcontent {
+    justify-content: center;
+    align-items: center;    
+    display: flex;
+}
+#logo {
+    height: auto;
+    max-width: 100px;
+    
+}
+aside {
+    padding-left: 20px;   
+}
