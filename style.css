@@ -1,16 +1,17 @@
 body {
-    margin: 20px;
     font-family:Arial, Helvetica, sans-serif;
-    width: 1000px;
-    height: 1200px;
     background-color: black;
+    height: 100%;
+    margin: 50px;
+    overflow-x: hidden;
+    width: 100%;
 }
 .page {
     background-color: white;
+    height: 21.59cm;
     justify-content: center;
-    width: 800px;
-    height: 1000px;
-    padding: 20px
+    width: 27.94cm;
+    padding: 30px;
 }
 .pheader {
     text-align: center;
@@ -19,12 +20,63 @@ body {
     justify-content: center;
     align-items: center;    
     display: flex;
+    padding-right: 50px;
 }
 #logo {
     height: auto;
     max-width: 100px;
     
 }
+#regno {
+    color: rgb(201, 18, 18);
+}
 aside {
-    padding-left: 20px;   
+    padding-left: 50px;   
+}
+.infobox {
+    border: 1px solid black;
+    border-top: none;
+}
+.SGI {
+    text-align: left;
+}
+.SGI table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.SGI th{
+    margin-left: 10px;
+}
+.SGI span {
+    margin-left: 10px;
+}
+#shorttable {
+    width: 50%;
+}
+#p1, #p3 {
+    font-size: 10px;
+    letter-spacing: -0.5px;
+    line-height: 5px;
+}
+#p2 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 0px;
+}
+#p4 {
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+#p5 {
+    font-weight: bold;
+    padding-left: 20px;
+}
+#p6 {
+    border: 1px solid black;
+    background-color: rgb(167, 188, 245);
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
 }
