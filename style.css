@@ -49,7 +49,7 @@ aside {
     table-layout: fixed;
     width: 100%;
 }
-.SGI th{
+.SGI th {
     margin-left: 10px;
     line-height: 1;
 }
@@ -62,13 +62,6 @@ aside {
 .schedule table {
     border-collapse: collapse;
     width: 100%;
-}
-.t1 {
-    table-layout: fixed;
-}
-
-#t1 th[colspan] {
-    text-align: center;
 }
 #p1, #p3 {
     font-size: 10px;
@@ -96,6 +89,20 @@ aside {
     line-height: 20px;
     text-align: center;
 }
+#p7 {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500 ;
+    letter-spacing: -1px;
+    padding-left: 10px;
+}
+.t1 {
+    table-layout: fixed;
+}
+
+#t1 th[colspan] {
+    text-align: center;
+}
 .t1, .t2 {
     border: 1px solid black;
     background-color: rgb(167, 188, 245);
@@ -103,4 +110,10 @@ aside {
 }
 .t3 td{
     padding-left: 10px;
+}
+.t4 th{
+    line-height: 10px;
+}
+#utd1 {
+    text-align: right;
 }
