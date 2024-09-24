@@ -1,17 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
     background-color: black;
     height: 100%;
-    margin: 50px;
+    line-height: 12px;
     overflow-x: hidden;
     width: 100%;
 }
 .page {
     background-color: white;
-    height: 21.59cm;
+    height: 33cm;
     justify-content: center;
-    width: 27.94cm;
-    padding: 30px;
+    width: 21.6cm;
+    margin: 10%;
+
+}
+.content {
+    margin: 1cm
 }
 .pheader {
     text-align: center;
@@ -37,46 +46,88 @@ aside {
     border: 1px solid black;
     border-top: none;
     margin: 0;
-    margin-top: -10px;
     padding: 0;
 }
 .SGI {
-    margin-top: -10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
     text-align: left;
+    white-space: nowrap;
 }
 .SGI table {
     border-collapse: collapse;
     table-layout: fixed;
     width: 100%;
 }
-.SGI th {
-    margin-left: 10px;
-    line-height: 1;
-}
 .SGI span {
-    margin-left: 10px;
+    margin-left: 5px;
+}
+.schedule table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+    width: 100%;
+}
+.schedule th:nth-child(1),
+.schedule td:nth-child(1) {
+    width: 15px;
+}
+.schedule th:nth-child(2),
+.schedule td:nth-child(2) {
+    width: 75px;
+}
+.schedule th:nth-child(3),
+.schedule td:nth-child(3) {
+    width: 25px;
+}
+.schedule th:nth-child(4),
+.schedule td:nth-child(4){
+    width: 25px
+}
+.schedule th:nth-child(5),
+.schedule td:nth-child(5){
+    width: 80px;
+}
+.schedule th:nth-child(6),
+.schedule td:nth-child(6){
+    width: 50px;
 }
 #shorttable {
     width: 50%;
 }
-.schedule table {
-    border-collapse: collapse;
-    width: 100%;
+.infofee {
+    display: flex;
+}
+.fees {
+    border: 1px solid black;
+    border-top: none;
+    padding-top: -20px;
+    margin-left: 30px;
+    width: 40%;
+}
+.fees table {
+    font-size: 10px;
+}
+.refundrules {
+    border-top: none;
 }
 #p1, #p3 {
     font-size: 10px;
     letter-spacing: -0.5px;
-    line-height: 5px;
+    line-height: 20px;
 }
 #p2 {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: -1px;
-    line-height: 0px;
+    line-height: 20px;
 }
 #p4 {
     font-weight: 900;
     letter-spacing: 10px;
+    line-height: 50px;
 }
 #p5 {
     font-weight: bold;
@@ -90,17 +141,24 @@ aside {
     text-align: center;
 }
 #p7 {
-    font-size: 15px;
+    font-size: 10px;
     font-style: italic;
     font-weight: 500 ;
     letter-spacing: -1px;
     padding-left: 10px;
 }
-.t1 {
-    table-layout: fixed;
+#p8 {
+    border: 1px solid black;
+    background-color: rgb(167, 188, 245);
+    font-weight: bold;
+    letter-spacing: 5px;
+    line-height: 20px;
+    text-align: center;
 }
-
-#t1 th[colspan] {
+#p9 {
+    font-weight: bold;
+    letter-spacing: 5px;
+    line-height: 20px;
     text-align: center;
 }
 .t1, .t2 {
@@ -111,9 +169,12 @@ aside {
 .t3 td{
     padding-left: 10px;
 }
-.t4 th{
-    line-height: 10px;
-}
+
 #utd1 {
     text-align: right;
+}
+#longtext {
+    display: inline-flex;
+    white-space: normal;
+    width: 150px;
 }
