@@ -14,21 +14,22 @@ body {
 .page {
     background-color: white;
     height: 33cm;
-    justify-content: center;
     width: 21.6cm;
-    margin: 10%;
-
+    margin: 10% auto;
+    display: flex;
 }
 .content {
-    margin: 1cm
+    margin-left: 1cm;
+    margin-right: 1cm;
 }
 .pheader {
     text-align: center;
+    margin-top: 50px;
 }
 .hcontent {
-    justify-content: center;
-    align-items: center;    
+    align-items: center;   
     display: flex;
+    justify-content: center; 
     padding-right: 50px;
 }
 #logo {
@@ -105,13 +106,41 @@ aside {
     border-top: none;
     padding-top: -20px;
     margin-left: 30px;
-    width: 40%;
-}
-.fees table {
-    font-size: 10px;
+    width: 80%;
 }
 .refundrules {
-    border-top: none;
+    margin-left: -10px;
+}
+.refundrules ul{
+    font-style: italic;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+.refundrules table {
+    table-layout: fixed;
+    text-align: right;
+}
+.refundrules td {
+    white-space: pre;
+    text-decoration: underline;
+}
+.signature {
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    flex-direction: column;
+    margin-right: 10%;
+    margin-top: 100px;
+    text-align: center;
+    width: 200px;
+}
+.signature p {
+    font-weight: bold;
+    line-height: 15px;
+}
+.notice {
+    border: 1px solid black;
+    background-color: rgb(167, 188, 245);
 }
 #p1, #p3 {
     font-size: 10px;
@@ -145,7 +174,7 @@ aside {
     font-style: italic;
     font-weight: 500 ;
     letter-spacing: -1px;
-    padding-left: 10px;
+    margin: 20px;
 }
 #p8 {
     border: 1px solid black;
@@ -157,9 +186,23 @@ aside {
 }
 #p9 {
     font-weight: bold;
-    letter-spacing: 5px;
     line-height: 20px;
     text-align: center;
+}
+#p10 {
+    white-space: pre;
+    text-decoration: underline;
+}
+#p11 {
+    font-size: 8px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-right: 10px;
+    text-align: right;
+}
+#p12 {
+    font-weight: 700;
+    margin-left: 5px;
 }
 .t1, .t2 {
     border: 1px solid black;
@@ -168,10 +211,33 @@ aside {
 }
 .t3 td{
     padding-left: 10px;
+    line-height: 15px;
 }
-
+.t4 {
+    font-size: 10px;
+    margin-left: 20px;
+}
 #utd1 {
     text-align: right;
+}
+.t5 {
+    border-collapse: collapse;
+    text-align: right;
+    width: 100%;
+}
+.t5 tr{
+    border: 1px solid black;
+}
+.t6 {
+    border-collapse: collapse;
+    font-size: 10px;
+    font-weight: 550;
+    text-align: right;
+    white-space: nowrap;
+    width: 100%;
+}
+.t6 td{
+    border: 1px solid black;
 }
 #longtext {
     display: inline-flex;
