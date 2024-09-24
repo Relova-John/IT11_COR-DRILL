@@ -36,23 +36,49 @@ aside {
 .infobox {
     border: 1px solid black;
     border-top: none;
+    margin: 0;
+    margin-top: -10px;
+    padding: 0;
 }
 .SGI {
+    margin-top: -10px;
     text-align: left;
 }
 .SGI table {
-    width: 100%;
     border-collapse: collapse;
     table-layout: fixed;
+    width: 100%;
 }
 .SGI th{
     margin-left: 10px;
+    line-height: 1;
 }
 .SGI span {
     margin-left: 10px;
 }
 #shorttable {
     width: 50%;
+}
+.schedule table {
+    border-collapse: collapse;
+    width: 100%;
+}
+#t1 {
+    table-layout: fixed;
+}
+#t1 th:nth-child(1) {width: 1%; min-width: 50px;}
+#t1 th:nth-child(2) {width: 15%; min-width: 200px;}
+#t1 th:nth-child(3) {width: 10%; min-width: 250px;}
+#t1 th:nth-child(4) {width: 8%; min-width: 100px;}
+#t1 th:nth-child(5) {width: 10%; min-width: 200px;}
+#t1 th:nth-child(6) {width: 15%;min-width: 200px;}
+#t1 th {
+    padding-left: 10px;
+    text-align: left;
+    max-width: 50px;
+}
+#t1 th[colspan] {
+    text-align: center;
 }
 #p1, #p3 {
     font-size: 10px;
@@ -80,10 +106,9 @@ aside {
     line-height: 20px;
     text-align: center;
 }
-#p7 {
+#t1 {
     border: 1px solid black;
     background-color: rgb(167, 188, 245);
-    font-weight: bold;
     line-height: 20px;
     text-align: center;
 }
