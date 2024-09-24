@@ -111,7 +111,7 @@ aside {
 .refundrules {
     margin-left: -10px;
 }
-.refundrules ul{
+.refundrules ol{
     font-style: italic;
     letter-spacing: 2px;
     line-height: 20px;
@@ -165,31 +165,32 @@ aside {
     letter-spacing: -1px;
     margin: 20px;
 }
-#p6 {
+#p6, #p7 {
     background-color: rgb(167, 188, 245);
     border: 1px solid black;
+    font-size: 15px;
     font-weight: bold;
     letter-spacing: 5px;
-    line-height: 20px;
-    text-align: center;
-}
-#p7 {
-    font-weight: bold;
-    line-height: 20px;
+    line-height: 15px;
     text-align: center;
 }
 #p8 {
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+}
+#p9 {
     white-space: pre;
     text-decoration: underline;
 }
-#p9 {
+#p10 {
     font-size: 8px;
     font-weight: 500;
     margin-right: 10px;
     margin-top: 50px;
     text-align: right;
 }
-#p10 {
+#p11 {
     font-weight: 700;
     margin-left: 5px;
 }
