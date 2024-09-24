@@ -101,6 +101,6 @@ aside {
     background-color: rgb(167, 188, 245);
     line-height: 20px;
 }
-.t3 {
-    padding-left: 20px;
+.t3 td{
+    padding-left: 10px;
 }
